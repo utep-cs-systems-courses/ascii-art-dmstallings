@@ -3,7 +3,7 @@
 
 void print_char_11x16(char c)
 {
-  c -= 0x20;
+  c -= 0x20; // First 20 ascii slots are not printable. This skips them.
   for (char row = 0; row < 11; row++) {
     unsigned short rowBits = font_11x16[c][row];
     for (char col = 0; col < 16; col++) {
