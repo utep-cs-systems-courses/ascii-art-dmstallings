@@ -26,3 +26,12 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+/* Prints an arrow by calling the existing print_triangle function then calling 
+   the existing print_square function. */ 
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(leftCol, size);
+  /* leftCol + size/2 + 1 places the square in the center by taking the given left
+     column then adding half of the size. */
+  print_square(leftCol + size/2 + 1, size);
+}
