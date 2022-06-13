@@ -66,10 +66,10 @@ Please observe the following standard C coding practices:
 
 # Instructions
 
-- The TAs will lead you through the process of adding a function to
-  print arrows. This will require you to (1) define function
-  print_arrow() in print_shapes.c, (2) Adding a declaration for
-  print_arrow() to draw.h, and (3) add a command "t" to uimain.c.
+- Add a function to print an arrow. This will require you to
+  (1) define function print_arrow() in print_shapes.c,
+  (2) Adding a declaration for print_arrow() to draw.h, and
+  (3) add a command "t" to uimain.c.
 
 - You will independently add another font to this project.  
   You are welcome to use either the 5x7 or 8x12 fonts we provide.  
